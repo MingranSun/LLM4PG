@@ -8,26 +8,28 @@ M. Sun, L. Bai, X. Cheng, and J. Wu, “LLM4PG: Adapting Large Language Model fo
 - Python packages: `pip install -r requirements.txt`
 
 
+## Dataset Preparation
+The test datasets used in this paper can be downloaded in the following links [[Dataset]](https://pan.baidu.com/s/1PZjVKNHknX85qxxj3Iw25Q?pwd=97tz) with the extraction code 97tz. 
+
 ## Get Started
-We have released the model weight for inference in [[Model]](https://pan.baidu.com/s/1ewhFuIBm3os6L1n-tviiNw?pwd=p3a3) with the extraction code p3a3.
+### Step1: Prepare the Files
+- Dataset: Download the dataset and place it under the [dataset/] folder in the root directory.
+- GPT-2 Files: Download the [[GPT-2]](https://pan.baidu.com/s/1DhLo2zKKKwiKNFuN2XJGqw?pwd=89xb) files with the extraction code 89xb files and put them into the [gpt2/] folder.
+- LLM4PG Weights: We have released the model weights for inference in [[Model]](https://pan.baidu.com/s/11Lv-JMNrP8s4oQwC6j-7rg?pwd=25m6) with the extraction code 25m6. Download them and place it under the [weights/] folder.
 
-
-### Inference command 
+### Step2: Run Inference
+Once all the required files are in place, you can run the following command:
 ```
-python test_image_pl.py
+python inference.py
 ```
 
 ## Citation
 If you find this repo helpful, please cite our paper.
-```latex
-@ARTICLE{10614105,
-  author={Sun, Mingran and Bai, Lu and Huang, Ziwei and Cheng, Xiang},
-  journal={IEEE Wireless Communications Letters}, 
-  title={Multi-Modal Sensing Data-Based Real-Time Path Loss Prediction for 6G UAV-to-Ground Communications}, 
-  year={2024},
-  volume={13},
-  number={9},
-  pages={2462-2466},
-  keywords={Sensors;Wireless sensor networks;Wireless communication;Autonomous aerial vehicles;Real-time systems;6G mobile communication;Loss measurement;6G UAV-to-ground communications;path loss prediction;sensing and communication integration},
-  doi={10.1109/LWC.2024.3419245}}
+```@article{sun2026llm4pg,
+  title={LLM4PG: Adapting Large Language Model for Pathloss Map Generation via Synesthesia of Machines},
+  author={Sun, Mingran and Bai, Lu and Cheng, Xiang and Wu, Jianjun},
+  journal={IEEE Transactions on Machine Learning in Communications and Networking},
+  year={2026}
+}
 ```
+
