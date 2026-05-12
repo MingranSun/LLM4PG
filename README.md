@@ -13,9 +13,9 @@ The test datasets used in this paper can be downloaded in the following links [[
 
 ## Get Started
 ### Step1: Prepare the Files
-- Dataset: Download the dataset and place it under the [dataset/] folder in the root directory.
-- GPT-2 Files: Download the [[GPT-2]](https://pan.baidu.com/s/1DhLo2zKKKwiKNFuN2XJGqw?pwd=89xb) files with the extraction code 89xb files and put them into the [gpt2/] folder.
-- LLM4PG Weights: We have released the model weights for inference in [[Model]](https://pan.baidu.com/s/11Lv-JMNrP8s4oQwC6j-7rg?pwd=25m6) with the extraction code 25m6. Download them and place it under the [weights/] folder.
+- Dataset: Download the dataset and place it under the `dataset/` folder in the root directory.
+- GPT-2 Files: Download the [[GPT-2]](https://pan.baidu.com/s/1DhLo2zKKKwiKNFuN2XJGqw?pwd=89xb) files with the extraction code 89xb files and put them into the `gpt2/` folder.
+- LLM4PG Weights: We have released the model weights for inference in [[Model]](https://pan.baidu.com/s/11Lv-JMNrP8s4oQwC6j-7rg?pwd=25m6) with the extraction code 25m6. Download them and place it under the `weights/` folder.
 
 ### Step2: Run Inference
 Once all the required files are in place, you can run the following command:
