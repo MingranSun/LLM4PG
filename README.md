@@ -1,6 +1,9 @@
 # LLM4PG
 M. Sun, L. Bai, X. Cheng, and J. Wu, “LLM4PG: Adapting Large Language Model for Pathloss Map Generation via Synesthesia of Machines,” IEEE Transactions on Machine Learning in Communications and Networking, accepted, 2026. 
 
+[fig4_v2.pdf](https://github.com/user-attachments/files/27686345/fig4_v2.pdf)
+
+
 ## Dependencies and Installation
 - Python 3.9 (Recommend to use [Anaconda](https://www.anaconda.com/))
 - Pytorch 2.0.0
